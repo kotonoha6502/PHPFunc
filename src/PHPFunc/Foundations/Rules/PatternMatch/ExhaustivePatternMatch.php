@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace FunPHP\Foundations\Rules\PatternMatch;
+namespace PHPFunc\Foundations\Rules\PatternMatch;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\MethodCall;
@@ -22,6 +22,5 @@ class NonExhaustivePatternsRule implements Rule {
             return [];
         }
 
-        $calledOnType = $scope->getType($node->var)
     }
 }
