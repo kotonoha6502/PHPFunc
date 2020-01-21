@@ -1,0 +1,28 @@
+{
+    "name": "kotonoha6502/PHPFunc",
+    "type": "library",
+    "description": "a collection of abstractions based on functional programming techniques",
+    "keywords": ["FunctionalProgramming"],
+    "homepage": "https://github.com/kotonoha6502/PHPFunc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kotonoha6502",
+            "homepage": "https://github.com/kotonoha6502"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPFunc": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+    },
+    "require-dev": {
+    }
+}
