@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace FunPHP\Foundations\Syntax\PatternMatch;
+namespace PHPFunc\Foundations\Syntax\PatternMatch;
 
 /**
  * @template T

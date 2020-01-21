@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-use \FunPHP\Foundations\Syntax\PatternMatch\MatchExprBuilder;
+use \PHPFunc\Foundations\Syntax\PatternMatch\MatchExprBuilder;
 
 if (!function_exists("match")) {
     /**

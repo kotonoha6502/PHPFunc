@@ -1,11 +1,11 @@
 <?php declare(strict_types = 1);
 
-namespace FunPHP\Foundations\Syntax\PatternMatch;
+namespace PHPFunc\Foundations\Syntax\PatternMatch;
 
-use FunPHP\Foundations\Syntax\PatternMatch\Pattern;
-use FunPHP\Foundations\Syntax\PatternMatch\DefaultValue;
-use FunPHP\Foundations\Syntax\PatternMatch\CaseValue;
-use FunPHP\Foundations\Exception\PatternMatchFailureException;
+use PHPFunc\Foundations\Syntax\PatternMatch\Pattern;
+use PHPFunc\Foundations\Syntax\PatternMatch\DefaultValue;
+use PHPFunc\Foundations\Syntax\PatternMatch\CaseValue;
+use PHPFunc\Foundations\Exception\PatternMatchFailureException;
 
 /**
  * @template T
